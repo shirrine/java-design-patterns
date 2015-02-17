@@ -1,6 +1,6 @@
-package com.shirrine.patterns.abstractfactory.foobarmv.van;
+package com.shirrine.patterns.foobarmv.abstractfactory.van;
 
-import com.shirrine.patterns.abstractfactory.foobarmv.Windows;
+import com.shirrine.patterns.foobarmv.abstractfactory.Windows;
 
 /**
  * Van implementation of the <code>Windows</code> interface.

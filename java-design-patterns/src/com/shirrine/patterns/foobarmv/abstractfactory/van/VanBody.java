@@ -1,6 +1,6 @@
-package com.shirrine.patterns.abstractfactory.foobarmv.van;
+package com.shirrine.patterns.foobarmv.abstractfactory.van;
 
-import com.shirrine.patterns.abstractfactory.foobarmv.Body;
+import com.shirrine.patterns.foobarmv.abstractfactory.Body;
 
 /**
  * Van implementation of the <code>Body</code> interface.

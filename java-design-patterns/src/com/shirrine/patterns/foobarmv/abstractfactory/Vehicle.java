@@ -2,7 +2,7 @@
  * This class is for comparison. It does not use the AbstractFactory design pattern.
  */
 
-package com.shirrine.patterns.abstractfactory.foobarmv;
+package com.shirrine.patterns.foobarmv.abstractfactory;
 
 /**
  * Build a vehicle.

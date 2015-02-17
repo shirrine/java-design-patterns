@@ -1,6 +1,6 @@
-package com.shirrine.patterns.abstractfactory.foobarmv.car;
+package com.shirrine.patterns.foobarmv.abstractfactory.car;
 
-import com.shirrine.patterns.abstractfactory.foobarmv.Windows;
+import com.shirrine.patterns.foobarmv.abstractfactory.Windows;
 
 /**
  * Car implementation of the <code>Windows<code> interface.

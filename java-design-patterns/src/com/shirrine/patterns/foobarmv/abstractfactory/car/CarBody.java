@@ -1,6 +1,6 @@
-package com.shirrine.patterns.abstractfactory.foobarmv.car;
+package com.shirrine.patterns.foobarmv.abstractfactory.car;
 
-import com.shirrine.patterns.abstractfactory.foobarmv.Body;
+import com.shirrine.patterns.foobarmv.abstractfactory.Body;
 
 /**
  * Car implementation of the <code>Body</code> interface.

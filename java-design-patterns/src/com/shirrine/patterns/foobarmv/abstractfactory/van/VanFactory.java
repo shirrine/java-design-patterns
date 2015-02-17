@@ -1,21 +1,20 @@
-package com.shirrine.patterns.abstractfactory.foobarmv.car;
+package com.shirrine.patterns.foobarmv.abstractfactory.van;
 
-import com.shirrine.patterns.abstractfactory.foobarmv.*;
-
+import com.shirrine.patterns.foobarmv.abstractfactory.*;
 /**
- * Manufacture a car.
+ * Manufacture a van.
  * 
  * @author Shirrine
  *
  */
-public class CarFactory extends AbstractVehicleFactory{
+public class VanFactory extends AbstractVehicleFactory{
 	
 	/*
 	 * (non-Javadoc)
 	 * @see patterns.abstractfactory.foobarmv.AbstractVehicleFactory#createBody()
 	 */
 	public Body createBody(){
-		return new CarBody();
+		return new VanBody();
 	}
 	
 	/*
@@ -23,7 +22,7 @@ public class CarFactory extends AbstractVehicleFactory{
 	 * @see patterns.abstractfactory.foobarmv.AbstractVehicleFactory#createChassis()
 	 */
 	public Chassis createChassis(){
-		return new CarChassis();
+		return new VanChassis();
 	}
 	
 	/*
@@ -31,7 +30,7 @@ public class CarFactory extends AbstractVehicleFactory{
 	 * @see patterns.abstractfactory.foobarmv.AbstractVehicleFactory#createWindows()
 	 */
 	public Windows createWindows(){
-		return new CarWindows();
+		return new VanWindows();
 	}
 
 }

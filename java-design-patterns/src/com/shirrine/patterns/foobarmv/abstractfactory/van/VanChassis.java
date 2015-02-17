@@ -1,6 +1,6 @@
-package com.shirrine.patterns.abstractfactory.foobarmv.van;
+package com.shirrine.patterns.foobarmv.abstractfactory.van;
 
-import com.shirrine.patterns.abstractfactory.foobarmv.Chassis;
+import com.shirrine.patterns.foobarmv.abstractfactory.Chassis;
 
 /**
  * Van implementation of the <code>Chassis</code> interface.

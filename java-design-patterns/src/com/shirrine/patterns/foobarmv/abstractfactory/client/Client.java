@@ -1,8 +1,8 @@
-package com.shirrine.patterns.abstractfactory.foobarmv.client;
+package com.shirrine.patterns.foobarmv.abstractfactory.client;
 
-import com.shirrine.patterns.abstractfactory.foobarmv.*;
-import com.shirrine.patterns.abstractfactory.foobarmv.car.*;
-import com.shirrine.patterns.abstractfactory.foobarmv.van.*;
+import com.shirrine.patterns.foobarmv.abstractfactory.*;
+import com.shirrine.patterns.foobarmv.abstractfactory.car.*;
+import com.shirrine.patterns.foobarmv.abstractfactory.van.*;
 
 /**
  * Build a vehicle.
