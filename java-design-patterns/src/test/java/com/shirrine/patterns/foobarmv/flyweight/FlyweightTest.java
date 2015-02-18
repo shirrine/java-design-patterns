@@ -1,16 +1,15 @@
 /*
  * Let's get moving!
  */
-package com.shirrine.patterns.foobarmv.client;
+package com.shirrine.patterns.foobarmv.flyweight;
 
-import com.shirrine.patterns.foobarmv.flyweight.DiagnosticTool;
-import com.shirrine.patterns.foobarmv.flyweight.Engine;
-import com.shirrine.patterns.foobarmv.flyweight.EngineDiagnosticTool;
-import com.shirrine.patterns.foobarmv.flyweight.EngineFlyweightFactory;
+import org.junit.*;
+import static org.junit.Assert.*;
+import static org.hamcrest.Matchers.*;
 
-public class FlyweightClient {
+public class FlyweightTest {
 	
-	public static void main(String[] args){
+	@Test public void test1(){
 		
 		// Create the flyweight factory
 		EngineFlyweightFactory engineFactory = new EngineFlyweightFactory();
@@ -38,19 +37,13 @@ public class FlyweightClient {
 		Engine standard5 = engineFactory.getStandardEngine(1600);
 		standard5.diagnose(engineDiagTool);
 		
-		// Show that the objects are shared
-		System.out.println(standard1.hashCode());
-		System.out.println(standard2.hashCode());
-		System.out.println(standard3.hashCode());
-		System.out.println(standard4.hashCode());
-		System.out.println(standard5.hashCode());
-		
 		// Compare for equality
-		System.out.println(standard1.equals(standard2));
-		System.out.println(standard2.equals(standard3));
-		System.out.println(standard1.equals(standard3));
-		System.out.println(standard4.equals(standard5));
-		System.out.println(!standard3.equals(standard5));
+		assertThat(standard1, equalTo(standard2));
+		assertThat(standard2, equalTo(standard3));
+		assertThat(standard1, equalTo(standard3));
+		assertThat(standard4, equalTo(standard5));
+		assertThat(standard3, not(equalTo(standard5)));
+
 	}
 
 }
