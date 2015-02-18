@@ -1,4 +1,4 @@
-package com.shirrine.patterns.foobarmv.abstractfactory.client;
+package com.shirrine.patterns.foobarmv.client;
 
 import com.shirrine.patterns.foobarmv.abstractfactory.*;
 import com.shirrine.patterns.foobarmv.abstractfactory.car.*;
@@ -10,7 +10,7 @@ import com.shirrine.patterns.foobarmv.abstractfactory.van.*;
  * @author Shirrine
  *
  */
-public class Client {
+public class AbstractFactoryClient {
 	
 	public static final String BAD_PARAMETERS = "Please specify \"car\" or \"van\".";
 	

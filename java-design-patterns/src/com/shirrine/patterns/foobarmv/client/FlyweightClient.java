@@ -1,9 +1,14 @@
 /*
  * Let's get moving!
  */
-package com.shirrine.patterns.foobarmv.flyweight;
+package com.shirrine.patterns.foobarmv.client;
 
-public class EngineClient {
+import com.shirrine.patterns.foobarmv.flyweight.DiagnosticTool;
+import com.shirrine.patterns.foobarmv.flyweight.Engine;
+import com.shirrine.patterns.foobarmv.flyweight.EngineDiagnosticTool;
+import com.shirrine.patterns.foobarmv.flyweight.EngineFlyweightFactory;
+
+public class FlyweightClient {
 	
 	public static void main(String[] args){
 		

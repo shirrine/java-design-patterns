@@ -16,7 +16,7 @@ public class StandardEngine extends AbstractEngine{
 	 * 
 	 * @param size the engine size
 	 */
-	public StandardEngine(int size){
+	protected StandardEngine(int size){
 		super(size, false);
 	}
 }

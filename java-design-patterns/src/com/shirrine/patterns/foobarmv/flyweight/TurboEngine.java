@@ -16,7 +16,7 @@ public class TurboEngine extends AbstractEngine{
 	 * 
 	 * @param size the engine size
 	 */
-	public TurboEngine(int size){
+	protected TurboEngine(int size){
 		super(size, true);
 	}
 

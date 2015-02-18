@@ -3,6 +3,7 @@
  */
 package com.shirrine.patterns.foobarmv.flyweight;
 
+
 /**
  * A vehicle engine.
  * 
