@@ -68,7 +68,11 @@ public abstract class AbstractEngine implements Engine {
 	
 	@Override
 	public boolean equals(Object obj){
-		return this.toString().equals(((AbstractEngine) obj).toString());
+		if(obj != null && obj instanceof AbstractEngine){
+			return this.toString().equals(((AbstractEngine) obj).toString());
+		} else{
+			return false;
+		}
 	}
 
 }
