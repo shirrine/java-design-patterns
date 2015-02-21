@@ -3,19 +3,22 @@
  */
 package com.shirrine.patterns.foobarmv.builder;
 
-import com.shirrine.patterns.foobarmv.*;
+import com.shirrine.patterns.foobarmv.Vehicle;
 
 /**
  * A director for building a vehicle.
- * 
+ *
  * @author Shirrine
  *
  */
 public abstract class VehicleDirector {
-	
-	/**
-	 * Build a vehicle.
-	 */
-	public abstract Vehicle build(VehicleBuilder Builder);
+
+    /**
+     * Builds a vehicle.
+     *
+     * @param builder the vehicle builder
+     * @return the vehicle
+     */
+    public abstract Vehicle build(final VehicleBuilder builder);
 
 }
