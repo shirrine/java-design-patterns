@@ -12,4 +12,9 @@ public interface Command {
      */
     void execute();
 
+    /**
+     * Undoes the command.
+     */
+    void undo();
+
 }

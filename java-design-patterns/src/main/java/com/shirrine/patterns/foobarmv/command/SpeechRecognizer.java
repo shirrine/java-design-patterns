@@ -8,6 +8,7 @@ package com.shirrine.patterns.foobarmv.command;
 public class SpeechRecognizer {
 
     private Command upCommand, downCommand;
+    private Command priorCommand;
 
     /**
      * Sets the up and down commands.
@@ -26,6 +27,7 @@ public class SpeechRecognizer {
      */
     public void hearUpSpoken() {
         upCommand.execute();
+        priorCommand = upCommand;
     }
 
     /**
@@ -33,6 +35,20 @@ public class SpeechRecognizer {
      */
     public void hearDownSpoken() {
         downCommand.execute();
+        priorCommand = downCommand;
+    }
+
+    /**
+     * Executes the undo command.
+     */
+    public void hearUndoSpoken() {
+
+        if (priorCommand.equals(upCommand)) {
+            upCommand.undo();
+        } else if (priorCommand.equals(downCommand)) {
+            downCommand.undo();
+        }
+
     }
 
 }

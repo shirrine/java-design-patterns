@@ -8,6 +8,7 @@ package com.shirrine.patterns.foobarmv.command;
 public class VolumeDownCommand implements Command {
 
     private Radio radio;
+    private boolean wasHigher = false; // Prior state
 
     /**
      * Set the radio for this command.
@@ -23,6 +24,30 @@ public class VolumeDownCommand implements Command {
      */
     @Override
     public void execute() {
+
+        // Save the previous state
+        if (radio.getVolume() > Radio.MIN_VOLUME) {
+            wasHigher = true;
+        } else {
+            wasHigher = false;
+        }
+
+        // Lower the volume
         radio.volumeDown();
+
+    }
+
+    /**
+     * Undoes the command.
+     */
+    @Override
+    public void undo() {
+
+        System.out.println("Undo last command");
+
+        // Revert to the previous state if changed
+        if (wasHigher) {
+            radio.volumeUp();
+        }
     }
 }
