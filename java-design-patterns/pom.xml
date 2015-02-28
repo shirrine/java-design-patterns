@@ -5,11 +5,11 @@
   <groupId>com.shirrine</groupId>
   <artifactId>java-design-patterns</artifactId>
   <name>Java Design Patterns</name>
-  <url>http://maven.apache.org</url>  
+  <url>http://shirrine.github.io/java-design-patterns/</url>
   <description>Working with Java Design Patterns</description>
   <developers>
     <developer>
-      <id>shirrine</id>
+      <id>Shirrine</id>
       <name>Eysha Shirrine</name>
       <roles>
         <role>lead developer</role>
@@ -26,20 +26,21 @@
   <packaging>jar</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <github.global.server>github</github.global.server>
   </properties>
 
   <!-- Source Code Management -->
   <scm>
-    <connection>scm:git:https://github.com/Shirrine/java-design-patterns.git</connection>
-    <developerConnection>scm:git:git@github.com:Shirrine/java-design-patterns.git</developerConnection>
+    <connection>scm:git:https://github.com/${user.name}/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:${user.name}/${project.artifactId}.git</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/Shirrine/java-design-patterns.git</url>
+    <url>https://github.com/${user.name}/${project.artifactId}.git</url>
   </scm>
 
   <!-- Bug Reporting -->
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/shirrine/java-design-patterns</url>
+    <url>https://github.com/${user.name}/java-design-patterns</url>
   </issueManagement>
   
   <!-- Dependencies -->
@@ -71,7 +72,12 @@
       <artifactId>maven-javadoc-plugin</artifactId>
       <version>2.10.1</version>
     </dependency>
-    </dependencies>
+      <dependency>
+          <groupId>com.github.github</groupId>
+          <artifactId>site-maven-plugin</artifactId>
+          <version>0.11</version>
+      </dependency>
+  </dependencies>
  
     <!-- Build Settings -->   
     <build>
@@ -126,6 +132,16 @@
             <version>2.10.1</version>
             <configuration>
                 <show>public</show>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>com.github.github</groupId>
+            <artifactId>site-maven-plugin</artifactId>
+            <version>0.11</version>
+            <configuration>
+                <message>Creating site for ${project.version}</message>
+                <repositoryOwner>${user.name}</repositoryOwner>
+                <repositoryName>${project.artifactId}</repositoryName>
             </configuration>
         </plugin>
       </plugins>
