@@ -7,3 +7,4 @@ com.shirrine.patterns.foobarmv.builder
 com.shirrine.patterns.foobarmv.chainofresponsibility
 com.shirrine.patterns.foobarmv.command
 com.shirrine.patterns.foobarmv.flyweight
+com.shirrine.patterns.foobarmv.singleton
