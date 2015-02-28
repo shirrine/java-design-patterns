@@ -8,8 +8,12 @@ import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.*;
 
 public class FlyweightTest {
-	
-	@Test public void test1(){
+
+    /**
+     * Tests the creation of an engine flyweight. Reusing a common object rather
+     * than creating duplicates.
+     */
+	@Test public void testFlyweight(){
 		
 		// Create the flyweight factory
 		EngineFlyweightFactory engineFactory = new EngineFlyweightFactory();

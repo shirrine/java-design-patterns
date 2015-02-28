@@ -18,13 +18,16 @@ public class SpamEmailHandler extends AbstractEmailHandler {
     }
 
     /**
-     * Handles the email in this handler.
+     * Handles the email with this handler.
      *
      * @param email
      *         the email to process
+     * @return an automatic response message
      */
     @Override
-    protected void handle(final String email) {
-        System.out.println("This is a spam email.");
+    protected String handleEmail(final String email) {
+        String message = "This is a spam email.";
+        System.out.println(message);
+        return message;
     }
 }

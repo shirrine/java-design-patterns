@@ -19,12 +19,19 @@ public class BuilderTest {
 	private static VehicleDirector director = new CarDirector();
 	private static VehicleBuilder builder;
 	private static AbstractCar car;
-	
+
+    /**
+     * Sets up an EngineFlyweight for engine object reuse and creates a
+     * CarDirector.
+     */
 	@BeforeClass public static void setup(){
 		engineFactory = new EngineFlyweightFactory();
 		director = new CarDirector();
 	}
-	
+
+    /**
+     * Tests a builder for a car object.
+     */
 	@Test public void testBuilder(){
 		
 		// Build a car
@@ -33,7 +40,10 @@ public class BuilderTest {
 		Vehicle vehicle = director.build(builder);
 		assertNotNull(vehicle);
 	}
-	
+
+    /**
+     * Tests multiple builders using a flyweight pattern for the engines.
+     */
 	@Test public void testFlyweight(){
 		
 		// Build Car 1

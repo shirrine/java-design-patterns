@@ -18,13 +18,16 @@ public class ManagerEmailHandler extends AbstractEmailHandler {
     }
 
     /**
-     * Handles the email in this handler.
+     * Handles the email with this handler.
      *
      * @param email
      *         the email to process
+     * @return an automatic response message
      */
     @Override
-    protected void handle(final String email) {
-        System.out.println("Email handled by manager.");
+    protected String handleEmail(final String email) {
+        String message = "Email handled by manager.";
+        System.out.println(message);
+        return message;
     }
 }

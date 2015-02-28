@@ -24,11 +24,10 @@ public abstract class AbstractEmailHandler implements EmailHandler {
      * should be passed to the next handler.
      *
      * @param email the email to process
+     * @return an automatic response message
      */
     @Override
-    public void processHandler(final String email) {
-
-        // FIXME: I don't quite like this method name
+    public String processHandler(final String email) {
 
         boolean wordFound = false;
 
@@ -46,11 +45,11 @@ public abstract class AbstractEmailHandler implements EmailHandler {
 
         // Select a handler
         if (wordFound) {
-            handle(email);
+            return handleEmail(email);
         } else {
 
             // Hot potato!
-            nextHandler.processHandler(email);
+            return nextHandler.processHandler(email);
         }
     }
 
@@ -62,20 +61,20 @@ public abstract class AbstractEmailHandler implements EmailHandler {
     protected abstract String[] matchingWords();
 
     /**
-     * Handles the email in this handler.
+     * Handles the email with this handler.
      *
      * @param email the email to process
+     * @return an automatic response message
      */
-    protected abstract void handle(String email);
+    protected abstract String handleEmail(String email);
 
     /**
-     * Chains the handlers and processes the email.
+     * Chains all handlers then processes the email.
      *
      * @param email the email to process
+     * @return an automatic response message
      */
-    public static void process(final String email) {
-
-        // FIXME: I don't quite like this method name
+    public static String processEmail(final String email) {
 
         // Create the handlers
         EmailHandler spam = new SpamEmailHandler();
@@ -91,7 +90,7 @@ public abstract class AbstractEmailHandler implements EmailHandler {
         manager.setNextHandler(general);
 
         // Start the process
-        spam.processHandler(email);
+        return spam.processHandler(email);
     }
 
 

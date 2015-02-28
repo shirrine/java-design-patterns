@@ -20,9 +20,12 @@ public class ServiceEmailHandler extends AbstractEmailHandler {
      *
      * @param email
      *         the email to process
+     * @return an automatic response message
      */
     @Override
-    protected void handle(final String email) {
-        System.out.println("Email handled by service department.");
+    protected String handleEmail(final String email) {
+        String message = "Email handled by service department.";
+        System.out.println(message);
+        return message;
     }
 }

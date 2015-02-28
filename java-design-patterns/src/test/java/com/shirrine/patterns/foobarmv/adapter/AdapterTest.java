@@ -13,11 +13,17 @@ import com.shirrine.patterns.foobarmv.flyweight.*;
 public class AdapterTest {
 	
 	private static EngineFlyweightFactory engineFactory;
-	
+
+    /**
+     * Sets up an EngineFlyweight for engine reuse.
+     */
 	@BeforeClass public static void setup(){
 		engineFactory = new EngineFlyweightFactory();
 	}
-	
+
+    /**
+     * Tests an adapter for a third-party engine into our manufacturing operations.
+     */
 	@Test public void testAdapter(){
 		
 		List<Engine> engines = new ArrayList<Engine>();

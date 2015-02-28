@@ -19,6 +19,7 @@ public interface EmailHandler {
      * should be passed to the next handler.
      *
      * @param email the email to process
+     * @return an automatic response message
      */
-    void processHandler(String email);
+    String processHandler(String email);
 }

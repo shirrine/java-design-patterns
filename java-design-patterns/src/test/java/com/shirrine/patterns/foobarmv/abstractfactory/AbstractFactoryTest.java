@@ -26,20 +26,27 @@ public class AbstractFactoryTest {
 	// Rules
 	@Rule public ExpectedException exception = ExpectedException.none();
 	
-	// Tests
+	/**
+     * Builds a van.
+     */
 	@Test public void buildAVan(){
 		
 		build(new String[]{"Van"});
 
 	}
 
+    /**
+     * Builds a car.
+     */
 	@Test public void buildACar(){
 		
 		build(new String[]{"Car"});
 
 	}
-	
-	
+
+    /**
+     * Builds a car using lowercase letters. Expect failure message.
+     */
 	@Test public void buildACarLowerCase(){
 		
 		exception.expect(IllegalArgumentException.class);
