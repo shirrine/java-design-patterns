@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<rss version="0.91">
+  <channel>
+    <title>Java Design Patterns - Checkstyle report</title>
+    <link>http://maven.apache.org</link>
+    <description>Java Design Patterns - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2015</copyright>
+    <item>
+      <title>File: 60,
+             Errors: 0,
+             Warnings: 0,
+             Infos: 0
+      </title>
+            <link>http://maven.apache.org/checkstyle.html</link>
+      <description>
+        <p>Click <a href="http://maven.apache.org/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.adapter.SuperGreenEngineAdapter.java">com/shirrine/patterns/foobarmv/adapter/SuperGreenEngineAdapter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.command.VolumeUpCommand.java">com/shirrine/patterns/foobarmv/command/VolumeUpCommand.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.flyweight.EngineFlyweightFactory.java">com/shirrine/patterns/foobarmv/flyweight/EngineFlyweightFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.chainofresponsibility.ManagerEmailHandler.java">com/shirrine/patterns/foobarmv/chainofresponsibility/ManagerEmailHandler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.chainofresponsibility.ServiceEmailHandler.java">com/shirrine/patterns/foobarmv/chainofresponsibility/ServiceEmailHandler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.car.CarFactory.java">com/shirrine/patterns/foobarmv/abstractfactory/car/CarFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.chainofresponsibility.SalesEmailHandler.java">com/shirrine/patterns/foobarmv/chainofresponsibility/SalesEmailHandler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.Windows.java">com/shirrine/patterns/foobarmv/abstractfactory/Windows.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.builder.package-info.java">com/shirrine/patterns/foobarmv/builder/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.AbstractVehicle.java">com/shirrine/patterns/foobarmv/AbstractVehicle.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.chainofresponsibility.AbstractEmailHandler.java">com/shirrine/patterns/foobarmv/chainofresponsibility/AbstractEmailHandler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.package-info.java">com/shirrine/patterns/foobarmv/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.AbstractCar.java">com/shirrine/patterns/foobarmv/AbstractCar.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.car.CarWindows.java">com/shirrine/patterns/foobarmv/abstractfactory/car/CarWindows.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.chainofresponsibility.EmailHandler.java">com/shirrine/patterns/foobarmv/chainofresponsibility/EmailHandler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.command.ElectricWindow.java">com/shirrine/patterns/foobarmv/command/ElectricWindow.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.builder.VanBuilder.java">com/shirrine/patterns/foobarmv/builder/VanBuilder.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.adapter.SuperGreenEngine.java">com/shirrine/patterns/foobarmv/adapter/SuperGreenEngine.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.singleton.SerialNumberGeneratorMultiton.java">com/shirrine/patterns/foobarmv/singleton/SerialNumberGeneratorMultiton.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.adapter.package-info.java">com/shirrine/patterns/foobarmv/adapter/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.AbstractVan.java">com/shirrine/patterns/foobarmv/AbstractVan.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.builder.VehicleDirector.java">com/shirrine/patterns/foobarmv/builder/VehicleDirector.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.flyweight.TurboEngine.java">com/shirrine/patterns/foobarmv/flyweight/TurboEngine.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.van.VanBody.java">com/shirrine/patterns/foobarmv/abstractfactory/van/VanBody.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.builder.CarDirector.java">com/shirrine/patterns/foobarmv/builder/CarDirector.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.car.CarChassis.java">com/shirrine/patterns/foobarmv/abstractfactory/car/CarChassis.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.flyweight.EngineDiagnosticTool.java">com/shirrine/patterns/foobarmv/flyweight/EngineDiagnosticTool.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.flyweight.StandardEngine.java">com/shirrine/patterns/foobarmv/flyweight/StandardEngine.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.singleton.SerialNumberGenerator.java">com/shirrine/patterns/foobarmv/singleton/SerialNumberGenerator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.Saloon.java">com/shirrine/patterns/foobarmv/Saloon.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.command.Radio.java">com/shirrine/patterns/foobarmv/command/Radio.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.command.VolumeDownCommand.java">com/shirrine/patterns/foobarmv/command/VolumeDownCommand.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.van.VanFactory.java">com/shirrine/patterns/foobarmv/abstractfactory/van/VanFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.singleton.package-info.java">com/shirrine/patterns/foobarmv/singleton/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.builder.VehicleBuilder.java">com/shirrine/patterns/foobarmv/builder/VehicleBuilder.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.flyweight.AbstractEngine.java">com/shirrine/patterns/foobarmv/flyweight/AbstractEngine.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.van.package-info.java">com/shirrine/patterns/foobarmv/abstractfactory/van/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.command.WindowUpCommand.java">com/shirrine/patterns/foobarmv/command/WindowUpCommand.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.chainofresponsibility.GeneralInquiriesEmailHandler.java">com/shirrine/patterns/foobarmv/chainofresponsibility/GeneralInquiriesEmailHandler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.command.SpeechRecognizer.java">com/shirrine/patterns/foobarmv/command/SpeechRecognizer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.flyweight.package-info.java">com/shirrine/patterns/foobarmv/flyweight/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.Chassis.java">com/shirrine/patterns/foobarmv/abstractfactory/Chassis.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.builder.VanDirector.java">com/shirrine/patterns/foobarmv/builder/VanDirector.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.flyweight.DiagnosticTool.java">com/shirrine/patterns/foobarmv/flyweight/DiagnosticTool.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.car.CarBody.java">com/shirrine/patterns/foobarmv/abstractfactory/car/CarBody.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.van.VanChassis.java">com/shirrine/patterns/foobarmv/abstractfactory/van/VanChassis.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.singleton.SerialNumberGeneratorTraditional.java">com/shirrine/patterns/foobarmv/singleton/SerialNumberGeneratorTraditional.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.AbstractVehicleFactory.java">com/shirrine/patterns/foobarmv/abstractfactory/AbstractVehicleFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.Vehicle.java">com/shirrine/patterns/foobarmv/Vehicle.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.Body.java">com/shirrine/patterns/foobarmv/abstractfactory/Body.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.package-info.java">com/shirrine/patterns/foobarmv/abstractfactory/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.car.package-info.java">com/shirrine/patterns/foobarmv/abstractfactory/car/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.command.Command.java">com/shirrine/patterns/foobarmv/command/Command.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.command.package-info.java">com/shirrine/patterns/foobarmv/command/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.builder.CarBuilder.java">com/shirrine/patterns/foobarmv/builder/CarBuilder.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.command.WindowDownCommand.java">com/shirrine/patterns/foobarmv/command/WindowDownCommand.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.chainofresponsibility.package-info.java">com/shirrine/patterns/foobarmv/chainofresponsibility/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.chainofresponsibility.SpamEmailHandler.java">com/shirrine/patterns/foobarmv/chainofresponsibility/SpamEmailHandler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.flyweight.Engine.java">com/shirrine/patterns/foobarmv/flyweight/Engine.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://maven.apache.org/checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.van.VanWindows.java">com/shirrine/patterns/foobarmv/abstractfactory/van/VanWindows.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

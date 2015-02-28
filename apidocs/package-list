@@ -1,0 +1,9 @@
+com.shirrine.patterns.foobarmv
+com.shirrine.patterns.foobarmv.abstractfactory
+com.shirrine.patterns.foobarmv.abstractfactory.car
+com.shirrine.patterns.foobarmv.abstractfactory.van
+com.shirrine.patterns.foobarmv.adapter
+com.shirrine.patterns.foobarmv.builder
+com.shirrine.patterns.foobarmv.chainofresponsibility
+com.shirrine.patterns.foobarmv.command
+com.shirrine.patterns.foobarmv.flyweight
