@@ -15,7 +15,6 @@ import static org.hamcrest.Matchers.*;
  */
 public class BuilderTest {
 	
-	private static EngineFlyweightFactory engineFactory = new EngineFlyweightFactory();
 	private static VehicleDirector director = new CarDirector();
 	private static VehicleBuilder builder;
 	private static AbstractCar car;
@@ -25,7 +24,6 @@ public class BuilderTest {
      * CarDirector.
      */
 	@BeforeClass public static void setup(){
-		engineFactory = new EngineFlyweightFactory();
 		director = new CarDirector();
 	}
 
@@ -35,7 +33,8 @@ public class BuilderTest {
 	@Test public void testBuilder(){
 		
 		// Build a car
-		car = new Saloon(engineFactory.getStandardEngine(1300));
+		car = new Saloon(
+                EngineFlyweightFactory.INSTANCE.getStandardEngine(1300));
 		builder = new CarBuilder(car);
 		Vehicle vehicle = director.build(builder);
 		assertNotNull(vehicle);
@@ -47,13 +46,15 @@ public class BuilderTest {
 	@Test public void testFlyweight(){
 		
 		// Build Car 1
-		car = new Saloon(engineFactory.getStandardEngine(1300));
+		car = new Saloon(
+                EngineFlyweightFactory.INSTANCE.getStandardEngine(1300));
 		builder = new CarBuilder(car);
 		Vehicle vehicle = director.build(builder);
 		System.out.println(vehicle);
 		
 		// Build Car 2
-		AbstractCar car2 = new Saloon(engineFactory.getStandardEngine(1300));
+		AbstractCar car2 = new Saloon(
+                EngineFlyweightFactory.INSTANCE.getStandardEngine(1300));
 		builder = new CarBuilder(car2);
 		Vehicle vehicle2 = director.build(builder);
 		System.out.println(vehicle2);

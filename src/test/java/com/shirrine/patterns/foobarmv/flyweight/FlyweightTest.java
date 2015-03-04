@@ -16,7 +16,7 @@ public class FlyweightTest {
 	@Test public void testFlyweight(){
 		
 		// Create the flyweight factory
-		EngineFlyweightFactory engineFactory = new EngineFlyweightFactory();
+		EngineFlyweightFactory engineFactory = EngineFlyweightFactory.INSTANCE;
 		
 		// Create the diagnostic tool
 		DiagnosticTool engineDiagTool = new EngineDiagnosticTool();

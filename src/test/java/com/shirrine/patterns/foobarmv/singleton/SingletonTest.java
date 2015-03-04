@@ -1,6 +1,5 @@
-package com.shirrine.patterns.foobarmv;
+package com.shirrine.patterns.foobarmv.singleton;
 
-import com.shirrine.patterns.foobarmv.singleton.*;
 import org.junit.*;
 import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.*;
@@ -21,13 +20,15 @@ public class SingletonTest {
         System.out.println("Using traditional singleton");
 
         // Get an instance of the generator
-        SerialNumberGeneratorTraditional generator = SerialNumberGeneratorTraditional.getInstance();
+        SerialNumberGeneratorTraditional generator =
+                SerialNumberGeneratorTraditional.getInstance();
         assertThat(generator.getNextSerial(), is(1));
         assertThat(generator.getNextSerial(), is(2));
         assertThat(generator.getNextSerial(), is(3));
 
         // Request another generator (returns the same instance)
-        SerialNumberGeneratorTraditional generator2 = SerialNumberGeneratorTraditional.getInstance();
+        SerialNumberGeneratorTraditional generator2 =
+                SerialNumberGeneratorTraditional.getInstance();
         assertThat(generator2.getNextSerial(), is(not(1))); // Should be 4
         assertThat(generator2.getNextSerial(), is(5));
         assertThat(generator2.getNextSerial(), is(6));

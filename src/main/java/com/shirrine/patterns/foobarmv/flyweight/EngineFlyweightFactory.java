@@ -5,16 +5,23 @@
  */
 package com.shirrine.patterns.foobarmv.flyweight;
 
+import com.shirrine.patterns.foobarmv.proxy.EngineProxy;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * A factory for creating engines.
+ * A singleton factory for creating engines.
  *
  * @author Shirrine
  *
  */
-public class EngineFlyweightFactory {
+public enum EngineFlyweightFactory {
+
+    /**
+     * Single instance of an Engine Factory.
+     */
+    INSTANCE;
 
     private Map<Integer, Engine> standardEnginePool;
     private Map<Integer, Engine> turboEnginePool;
@@ -22,7 +29,7 @@ public class EngineFlyweightFactory {
     /**
      * Creates a pool of engines.
      */
-    public EngineFlyweightFactory() {
+    private EngineFlyweightFactory() {
         standardEnginePool = new HashMap<Integer, Engine>();
         turboEnginePool = new HashMap<Integer, Engine>();
     }
@@ -40,6 +47,7 @@ public class EngineFlyweightFactory {
 
         if (engine == null) {
             engine = new StandardEngine(size);
+            engine = new EngineProxy(engine); // Performance enhancement
             standardEnginePool.put(size, engine);
         }
 
@@ -59,6 +67,7 @@ public class EngineFlyweightFactory {
 
         if (engine == null) {
             engine = new TurboEngine(size);
+            engine = new EngineProxy(engine); // Performance enhancement
             turboEnginePool.put(size, engine);
         }
 
