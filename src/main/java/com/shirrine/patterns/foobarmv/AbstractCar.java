@@ -8,7 +8,7 @@ import com.shirrine.patterns.foobarmv.flyweight.Engine;
  * @author Shirrine
  *
  */
-public class AbstractCar extends AbstractVehicle {
+public abstract class AbstractCar extends AbstractVehicle {
 
     /**
      * Creates an abstract car with the specified engine.

@@ -10,6 +10,8 @@ import com.shirrine.patterns.foobarmv.flyweight.Engine;
  */
 public class Saloon extends AbstractCar {
 
+    private static final int PRICE = 6000;
+
     /**
      * Creates a saloon car with the specified engine.
      *
@@ -30,6 +32,15 @@ public class Saloon extends AbstractCar {
      */
     public Saloon(final Engine engine, final Vehicle.Color color) {
         super(engine, color);
+    }
+
+    /**
+     * Gets the car price.
+     *
+     * @return the car price
+     */
+    public int getPrice() {
+        return PRICE;
     }
 
 }

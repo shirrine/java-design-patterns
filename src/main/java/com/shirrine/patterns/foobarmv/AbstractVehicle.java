@@ -74,6 +74,7 @@ public abstract class AbstractVehicle implements Vehicle {
      */
     @Override
     public String toString() {
-        return getClass().getSimpleName() + " (" + engine + ", " + color + ")";
+        return getClass().getSimpleName() + " (" + engine + ", " + color
+                + ", price " + getPrice() + ")";
     }
 }

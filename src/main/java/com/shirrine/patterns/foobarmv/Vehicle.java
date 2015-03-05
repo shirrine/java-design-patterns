@@ -64,7 +64,7 @@ public interface Vehicle {
          * Yellow color.
          */
         YELLOW
-    };
+    }
 
     /**
      * Gets the vehicle engine.
@@ -88,4 +88,10 @@ public interface Vehicle {
      */
     void paint(final Vehicle.Color color);
 
+    /**
+     * Gets the vehicle price.
+     *
+     * @return the vehicle price
+     */
+    int getPrice();
 }

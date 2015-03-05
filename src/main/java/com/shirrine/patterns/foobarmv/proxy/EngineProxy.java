@@ -18,7 +18,6 @@ public class EngineProxy implements Engine {
      * @param engine the engine to proxy
      */
     public EngineProxy(final Engine engine) {
-
         this.engine = engine;
     }
 
@@ -48,6 +47,17 @@ public class EngineProxy implements Engine {
     @Override
     public boolean isTurbo() {
         return engine.isTurbo();
+    }
+
+    @Override
+    public String toString() {
+
+        /*
+         * Override toString to return the engine class name rather
+         * than the proxy class name. ;-)
+         */
+        return engine.getClass().getSimpleName()
+                + " (" + engine.getSize() + ")";
     }
 
 }
