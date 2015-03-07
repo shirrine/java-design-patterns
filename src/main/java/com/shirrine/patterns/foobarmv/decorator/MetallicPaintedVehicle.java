@@ -21,7 +21,7 @@ public class MetallicPaintedVehicle extends AbstractVehicleOption {
     }
 
     /**
-     * Gets the option price.
+     * Gets the price.
      *
      * @return the price of the metallic paint option
      */

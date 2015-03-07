@@ -83,4 +83,32 @@ public class CommandTest {
         recognizer.hearUndoSpoken();
 
     }
+
+    /**
+     * Tests the new air conditioner.
+     */
+    @Test
+    public void testAirConditioner() {
+
+        // Create an air conditioner and associated commands
+        AirConditioner airConditioner = new AirConditioner();
+        airConditioner.on();
+
+        // Create commands
+        Command temperatureUpCommand =
+                new TemperatureUpCommand(airConditioner);
+        Command temperatureDownCommand =
+                new TemperatureDownCommand(airConditioner);
+
+        // Add speech recognition
+        SpeechRecognizer recognizer = new SpeechRecognizer();
+        recognizer.setCommands(temperatureUpCommand, temperatureDownCommand);
+        System.out.println("Speech recognition controlling the A/C.");
+
+        // Control the air conditioner
+        recognizer.hearUpSpoken();
+        recognizer.hearUpSpoken();
+        recognizer.hearDownSpoken();
+        recognizer.hearUndoSpoken();
+    }
 }

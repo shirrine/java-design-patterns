@@ -4,6 +4,8 @@ import com.shirrine.patterns.foobarmv.AbstractVehicle;
 import com.shirrine.patterns.foobarmv.Vehicle;
 
 /**
+ * Vehicle options for use in decorating/wrapping vehicles.
+ *
  * @author Shirrine
  */
 public abstract class AbstractVehicleOption extends AbstractVehicle {

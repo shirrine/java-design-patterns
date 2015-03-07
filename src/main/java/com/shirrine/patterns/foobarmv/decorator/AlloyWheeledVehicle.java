@@ -21,7 +21,7 @@ public class AlloyWheeledVehicle extends AbstractVehicleOption {
     }
 
     /**
-     * Gets the option price.
+     * Gets the price.
      *
      * @return the price of the alloy wheel option
      */

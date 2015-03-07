@@ -21,7 +21,7 @@ public class LeatherSeatedVehicle extends AbstractVehicleOption {
     }
 
     /**
-     * Gets the option price.
+     * Gets the price.
      *
      * @return the price of the leather seat option
      */
