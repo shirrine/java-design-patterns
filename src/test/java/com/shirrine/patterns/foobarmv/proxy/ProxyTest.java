@@ -3,6 +3,7 @@
  */
 package com.shirrine.patterns.foobarmv.proxy;
 
+import com.shirrine.patterns.foobarmv.flyweight.Engine;
 import com.shirrine.patterns.foobarmv.flyweight.*;
 import org.junit.Test;
 

@@ -1,6 +1,8 @@
 package com.shirrine.patterns.foobarmv.adapter;
 
 import java.util.*;
+
+import com.shirrine.patterns.foobarmv.flyweight.Engine;
 import org.junit.*;
 import com.shirrine.patterns.foobarmv.flyweight.*;
 
