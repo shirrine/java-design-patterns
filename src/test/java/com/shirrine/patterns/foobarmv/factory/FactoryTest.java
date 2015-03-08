@@ -122,4 +122,41 @@ public class FactoryTest {
         assertThat(van.getEngine().getSize(), is(2500));
     }
 
+    /**
+     * Tests the static factory with a van.
+     */
+    @Test
+    public void testVanStaticFactory() {
+
+        Vehicle van = VehicleFactory.make(VehicleFactory.Category.VAN,
+                VehicleFactory.DrivingStyle.POWERFUL,
+                Vehicle.Color.GREEN);
+
+        System.out.println(van);
+
+        assertThat(van, is(instanceOf(Pickup.class)));
+        assertThat(van.getColor(), is(Vehicle.Color.GREEN));
+        assertFalse(van.getEngine().isTurbo());
+        assertThat(van.getEngine().getSize(), is(2500));
+    }
+
+    /**
+     * Tests the static factory with a car.
+     */
+    @Test
+    public void testCarStaticFactory() {
+
+        Vehicle car = VehicleFactory.make(VehicleFactory.Category.CAR,
+                VehicleFactory.DrivingStyle.MIDRANGE,
+                Vehicle.Color.RED);
+
+        System.out.println(car);
+
+        assertThat(car, is(instanceOf(Coupe.class)));
+        assertThat(car.getColor(), is(Vehicle.Color.RED));
+        assertFalse(car.getEngine().isTurbo());
+        assertThat(car.getEngine().getSize(), is(1600));
+    }
+
+
 }

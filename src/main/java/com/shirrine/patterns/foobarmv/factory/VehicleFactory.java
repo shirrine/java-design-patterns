@@ -36,6 +36,26 @@ public abstract class VehicleFactory {
     }
 
     /**
+     * Indicates the vehicle category.
+     * <ul>
+     *     <li>CAR</li>
+     *     <li>VAN</li>
+     * </ul>
+     */
+    public enum Category {
+
+        /**
+         * Car category.
+         */
+        CAR,
+
+        /**
+         * Van category.
+         */
+        VAN
+    }
+
+    /**
      * Builds a vehicle with the preferred style and color.
      *
      * @param style the driving style
@@ -55,5 +75,30 @@ public abstract class VehicleFactory {
      * @return the vehicle
      */
     protected abstract Vehicle selectVehicle(final DrivingStyle style);
+
+    /**
+     * Makes a vehicle.
+     *
+     * @param category the vehicle category
+     * @param style the driving style
+     * @param color the vehicle color
+     * @return the vehicle
+     */
+    public static Vehicle make(final Category category,
+                               final DrivingStyle style,
+                               final Vehicle.Color color) {
+
+        VehicleFactory factory = null;
+
+        // Select the factory
+        if (category == Category.CAR) {
+            factory = new CarFactory();
+        } else {
+            factory = new VanFactory();
+        }
+
+        // Build the vehicle
+        return factory.build(style, color);
+    }
 
 }
