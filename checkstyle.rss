@@ -25,7 +25,7 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015</copyright>
     <item>
-      <title>File: 72,
+      <title>File: 80,
              Errors: 0,
              Warnings: 0,
              Infos: 0
@@ -75,6 +75,20 @@ under the License.
                           <tr>
                 <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.flyweight.EngineFlyweightFactory.java">com/shirrine/patterns/foobarmv/flyweight/EngineFlyweightFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.Coupe.java">com/shirrine/patterns/foobarmv/Coupe.java</a>
                 </td>
                 <td>
                   0
@@ -186,7 +200,49 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.factory.VanFactory.java">com/shirrine/patterns/foobarmv/factory/VanFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.Sport.java">com/shirrine/patterns/foobarmv/Sport.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.chainofresponsibility.AbstractEmailHandler.java">com/shirrine/patterns/foobarmv/chainofresponsibility/AbstractEmailHandler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.factory.package-info.java">com/shirrine/patterns/foobarmv/factory/package-info.java</a>
                 </td>
                 <td>
                   0
@@ -396,6 +452,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.BoxVan.java">com/shirrine/patterns/foobarmv/BoxVan.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.flyweight.TurboEngine.java">com/shirrine/patterns/foobarmv/flyweight/TurboEngine.java</a>
                 </td>
                 <td>
@@ -509,6 +579,34 @@ under the License.
                           <tr>
                 <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.command.Radio.java">com/shirrine/patterns/foobarmv/command/Radio.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.factory.CarFactory.java">com/shirrine/patterns/foobarmv/factory/CarFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.Pickup.java">com/shirrine/patterns/foobarmv/Pickup.java</a>
                 </td>
                 <td>
                   0
@@ -747,6 +845,20 @@ under the License.
                           <tr>
                 <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.van.VanChassis.java">com/shirrine/patterns/foobarmv/abstractfactory/van/VanChassis.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.factory.VehicleFactory.java">com/shirrine/patterns/foobarmv/factory/VehicleFactory.java</a>
                 </td>
                 <td>
                   0
