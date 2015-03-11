@@ -12,6 +12,31 @@ package com.shirrine.patterns.foobarmv.flyweight;
 public interface Engine {
 
     /**
+     * Engine size 1600.
+     */
+    int ENGINE_SIZE_1300 = 1300;
+
+    /**
+     * Engine size 1600.
+     */
+    int ENGINE_SIZE_1600 = 1600;
+
+    /**
+     * Engine size 2000.
+     */
+    int ENGINE_SIZE_2000 = 2000;
+
+    /**
+     * Engine size 2200.
+     */
+    int ENGINE_SIZE_2200 = 2200;
+
+    /**
+     * Engine size 2500.
+     */
+    int ENGINE_SIZE_2500 = 2500;
+
+    /**
      * Gets the engine size.
      *
      * @return the engine size

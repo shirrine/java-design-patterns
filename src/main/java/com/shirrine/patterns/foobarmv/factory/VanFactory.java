@@ -3,6 +3,7 @@ package com.shirrine.patterns.foobarmv.factory;
 import com.shirrine.patterns.foobarmv.BoxVan;
 import com.shirrine.patterns.foobarmv.Pickup;
 import com.shirrine.patterns.foobarmv.Vehicle;
+import com.shirrine.patterns.foobarmv.flyweight.Engine;
 import com.shirrine.patterns.foobarmv.flyweight.EngineFlyweightFactory;
 
 /**
@@ -11,9 +12,6 @@ import com.shirrine.patterns.foobarmv.flyweight.EngineFlyweightFactory;
  * @author Shirrine
  */
 public class VanFactory extends VehicleFactory {
-
-    private static final int ENGINE_SIZE_ECONOMICAL = 2200;
-    private static final int ENGINE_SIZE_POWERFUL = 2500;
 
     /**
      * Selects a van based on the style preference.
@@ -30,11 +28,11 @@ public class VanFactory extends VehicleFactory {
 
             return new BoxVan(
                     EngineFlyweightFactory.INSTANCE.getStandardEngine(
-                            ENGINE_SIZE_ECONOMICAL));
+                            Engine.ENGINE_SIZE_2200));
         } else {
             return new Pickup(
                     EngineFlyweightFactory.INSTANCE.getStandardEngine(
-                            ENGINE_SIZE_POWERFUL));
+                            Engine.ENGINE_SIZE_2500));
         }
     }
 

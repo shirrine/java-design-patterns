@@ -8,7 +8,7 @@ import com.shirrine.patterns.foobarmv.flyweight.Engine;
  * @author Shirrine
  *
  */
-public interface Vehicle {
+public interface Vehicle extends Cloneable {
 
     /**
      * The vehicle color.
@@ -94,4 +94,11 @@ public interface Vehicle {
      * @return the vehicle price
      */
     int getPrice();
+
+    /**
+     * Clones a vehicle.
+     *
+     * @return the clone
+     */
+    Object clone();
 }

@@ -67,14 +67,58 @@ public abstract class AbstractVehicle implements Vehicle {
         this.color = color;
     }
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see java.lang.Object#toString()
+    /**
+     * Creates a string including the class name, engine type, color and
+     * price.
      */
     @Override
     public String toString() {
         return getClass().getSimpleName() + " (" + engine + ", " + color
                 + ", price " + getPrice() + ")";
+    }
+
+    /**
+     * Clones a vehicle.
+     *
+     * @return the clone
+     */
+    @Override
+    public Object clone() {
+        Object obj = null;
+
+        try {
+            obj = super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+
+        return obj;
+    }
+
+    /**
+     * Determines if two vehicles are equal by comparing the
+     * result of <code>toString()</code>.
+     *
+     * @param obj the object to compare
+     * @return true, if the objects are equal
+     */
+    @Override
+    public boolean equals(final Object obj) {
+        if (obj == null || !(obj instanceof Vehicle)) {
+            throw new IllegalArgumentException();
+        }
+
+        return this.toString().equals(obj.toString());
+    }
+
+    /**
+     * Computes a hash code using the value generated from
+     * <code>toString</code>.
+     *
+     * @return the hash code
+     */
+    @Override
+    public int hashCode() {
+        return this.toString().hashCode();
     }
 }

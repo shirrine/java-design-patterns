@@ -4,6 +4,7 @@ import com.shirrine.patterns.foobarmv.Coupe;
 import com.shirrine.patterns.foobarmv.Saloon;
 import com.shirrine.patterns.foobarmv.Sport;
 import com.shirrine.patterns.foobarmv.Vehicle;
+import com.shirrine.patterns.foobarmv.flyweight.Engine;
 import com.shirrine.patterns.foobarmv.flyweight.EngineFlyweightFactory;
 
 /**
@@ -12,10 +13,6 @@ import com.shirrine.patterns.foobarmv.flyweight.EngineFlyweightFactory;
  * @author Shirrine
  */
 public class CarFactory extends VehicleFactory {
-
-    private static final int ENGINE_SIZE_ECONOMICAL = 1300;
-    private static final int ENGINE_SIZE_MIDRANGE = 1600;
-    private static final int ENGINE_SIZE_POWERFUL = 2000;
 
     /**
      * Selects a car based on the style preference.
@@ -30,15 +27,15 @@ public class CarFactory extends VehicleFactory {
         if (style == DrivingStyle.ECONOMICAL) {
             return new Saloon(
                     EngineFlyweightFactory.INSTANCE.getStandardEngine(
-                            ENGINE_SIZE_ECONOMICAL));
+                            Engine.ENGINE_SIZE_1300));
         } else if (style == DrivingStyle.MIDRANGE) {
             return new Coupe(
                     EngineFlyweightFactory.INSTANCE.getStandardEngine(
-                            ENGINE_SIZE_MIDRANGE));
+                            Engine.ENGINE_SIZE_1600));
         } else {
             return new Sport(
                     EngineFlyweightFactory.INSTANCE.getTurboEngine(
-                            ENGINE_SIZE_POWERFUL));
+                            Engine.ENGINE_SIZE_2000));
         }
     }
 }
