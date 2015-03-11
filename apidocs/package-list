@@ -9,5 +9,6 @@ com.shirrine.patterns.foobarmv.command
 com.shirrine.patterns.foobarmv.decorator
 com.shirrine.patterns.foobarmv.factory
 com.shirrine.patterns.foobarmv.flyweight
+com.shirrine.patterns.foobarmv.prototype
 com.shirrine.patterns.foobarmv.proxy
 com.shirrine.patterns.foobarmv.singleton

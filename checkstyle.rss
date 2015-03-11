@@ -25,7 +25,7 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015</copyright>
     <item>
-      <title>File: 80,
+      <title>File: 82,
              Errors: 0,
              Warnings: 0,
              Infos: 0
@@ -620,6 +620,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.prototype.package-info.java">com/shirrine/patterns/foobarmv/prototype/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.decorator.AirConditionedVehicle.java">com/shirrine/patterns/foobarmv/decorator/AirConditionedVehicle.java</a>
                 </td>
                 <td>
@@ -1153,6 +1167,20 @@ under the License.
                           <tr>
                 <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.van.VanWindows.java">com/shirrine/patterns/foobarmv/abstractfactory/van/VanWindows.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.prototype.VehicleManager.java">com/shirrine/patterns/foobarmv/prototype/VehicleManager.java</a>
                 </td>
                 <td>
                   0
