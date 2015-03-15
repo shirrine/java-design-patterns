@@ -44,9 +44,46 @@ public class EngineProxy implements Engine {
         System.out.println("EngineProxy diagnose() method finished");
     }
 
+    /**
+     * Indicates if the engine is turbo.
+     *
+     * @return true, if turbo
+     */
     @Override
     public boolean isTurbo() {
         return engine.isTurbo();
+    }
+
+    /**
+     * Starts the engine.
+     */
+    @Override
+    public void start() {
+        engine.start();
+    }
+
+    /**
+     * Stops the engine.
+     */
+    @Override
+    public void stop() {
+        engine.stop();
+    }
+
+    /**
+     * Increases the engine power.
+     */
+    @Override
+    public void increasePower() {
+        engine.increasePower();
+    }
+
+    /**
+     * Decreases the engine power.
+     */
+    @Override
+    public void decreasePower() {
+        engine.decreasePower();
     }
 
     @Override

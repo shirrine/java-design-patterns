@@ -58,4 +58,24 @@ public interface Engine {
      */
     void diagnose(final DiagnosticTool tool); // Extrinsic state
 
+    /**
+     * Starts the engine.
+     */
+    void start();
+
+    /**
+     * Stops the engine.
+     */
+    void stop();
+
+    /**
+     * Increases the engine power.
+     */
+    void increasePower();
+
+    /**
+     * Decreases the engine power.
+     */
+    void decreasePower();
+
 }

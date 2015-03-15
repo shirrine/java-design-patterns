@@ -13,6 +13,13 @@ public abstract class AbstractEngine implements Engine {
 
     private int size;
     private boolean turbo;
+    private boolean running;
+    private int power;
+
+    /**
+     * The maximum engine power.
+     */
+    public static final int MAX_POWER = 10;
 
     /**
      * Creates an engine.
@@ -25,6 +32,8 @@ public abstract class AbstractEngine implements Engine {
     public AbstractEngine(final int size, final boolean turbo) {
         this.size = size;
         this.turbo = turbo;
+        running = false;
+        power = 0;
     }
 
     /**
@@ -85,10 +94,45 @@ public abstract class AbstractEngine implements Engine {
      */
     @Override
     public boolean equals(final Object obj) {
-        if (obj != null && obj instanceof AbstractEngine) {
-            return this.toString().equals(((AbstractEngine) obj).toString());
-        } else {
-            return false;
+        return obj != null && obj instanceof AbstractEngine
+                && this.toString().equals(obj.toString());
+    }
+
+    /**
+     * Starts the engine.
+     */
+    @Override
+    public void start() {
+        running = true;
+    }
+
+    /**
+     * Stops the engine.
+     */
+    @Override
+    public void stop() {
+        running = false;
+    }
+
+    /**
+     * Increases the engine power.
+     */
+    @Override
+    public void increasePower() {
+        if (running && power < MAX_POWER) {
+            power++;
+            System.out.println("Engine power increased to " + power);
+        }
+    }
+
+    /**
+     * Decreases the engine power.
+     */
+    @Override
+    public void decreasePower() {
+        if (running && power > 0) {
+            power--;
+            System.out.println("Engine power decreased to " + power);
         }
     }
 
