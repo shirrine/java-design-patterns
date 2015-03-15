@@ -1,5 +1,6 @@
 com.shirrine.patterns.foobarmv.abstractfactory
 com.shirrine.patterns.foobarmv.adapter
+com.shirrine.patterns.foobarmv.bridge
 com.shirrine.patterns.foobarmv.builder
 com.shirrine.patterns.foobarmv.chainofresponsibility
 com.shirrine.patterns.foobarmv.command

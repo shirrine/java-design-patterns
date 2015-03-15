@@ -25,7 +25,7 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015</copyright>
     <item>
-      <title>File: 82,
+      <title>File: 86,
              Errors: 0,
              Warnings: 0,
              Infos: 0
@@ -662,6 +662,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.bridge.StandardControls.java">com/shirrine/patterns/foobarmv/bridge/StandardControls.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.van.VanFactory.java">com/shirrine/patterns/foobarmv/abstractfactory/van/VanFactory.java</a>
                 </td>
                 <td>
@@ -719,6 +733,20 @@ under the License.
                           <tr>
                 <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.van.package-info.java">com/shirrine/patterns/foobarmv/abstractfactory/van/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.bridge.SportControls.java">com/shirrine/patterns/foobarmv/bridge/SportControls.java</a>
                 </td>
                 <td>
                   0
@@ -845,6 +873,20 @@ under the License.
                           <tr>
                 <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.car.CarBody.java">com/shirrine/patterns/foobarmv/abstractfactory/car/CarBody.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.bridge.AbstractDriverControls.java">com/shirrine/patterns/foobarmv/bridge/AbstractDriverControls.java</a>
                 </td>
                 <td>
                   0
@@ -1097,6 +1139,20 @@ under the License.
                           <tr>
                 <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.command.WindowDownCommand.java">com/shirrine/patterns/foobarmv/command/WindowDownCommand.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.bridge.package-info.java">com/shirrine/patterns/foobarmv/bridge/package-info.java</a>
                 </td>
                 <td>
                   0
