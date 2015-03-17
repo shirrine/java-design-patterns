@@ -104,6 +104,7 @@ public abstract class AbstractEngine implements Engine {
     @Override
     public void start() {
         running = true;
+        System.out.println("Engine started.");
     }
 
     /**
@@ -112,6 +113,8 @@ public abstract class AbstractEngine implements Engine {
     @Override
     public void stop() {
         running = false;
+        power = 0;
+        System.out.println("Engine stopped.");
     }
 
     /**
