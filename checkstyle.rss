@@ -25,7 +25,7 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2015</copyright>
     <item>
-      <title>File: 86,
+      <title>File: 90,
              Errors: 0,
              Warnings: 0,
              Infos: 0
@@ -284,6 +284,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.composite.Part.java">com/shirrine/patterns/foobarmv/composite/Part.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.abstractfactory.car.CarWindows.java">com/shirrine/patterns/foobarmv/abstractfactory/car/CarWindows.java</a>
                 </td>
                 <td>
@@ -453,6 +467,20 @@ under the License.
                           <tr>
                 <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.BoxVan.java">com/shirrine/patterns/foobarmv/BoxVan.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.composite.package-info.java">com/shirrine/patterns/foobarmv/composite/package-info.java</a>
                 </td>
                 <td>
                   0
@@ -760,6 +788,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.composite.Item.java">com/shirrine/patterns/foobarmv/composite/Item.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.command.WindowUpCommand.java">com/shirrine/patterns/foobarmv/command/WindowUpCommand.java</a>
                 </td>
                 <td>
@@ -789,6 +831,20 @@ under the License.
                           <tr>
                 <td>
                   <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.decorator.AlloyWheeledVehicle.java">com/shirrine/patterns/foobarmv/decorator/AlloyWheeledVehicle.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://shirrine.github.io/java-design-patterns//checkstyle.html#com.shirrine.patterns.foobarmv.composite.Assembly.java">com/shirrine/patterns/foobarmv/composite/Assembly.java</a>
                 </td>
                 <td>
                   0
