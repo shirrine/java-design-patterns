@@ -36,31 +36,31 @@ public abstract class AbstractVehicle implements Vehicle {
         this.color = color;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Gets the vehicle engine.
      *
-     * @see com.shirrine.patterns.foobarmv.Vehicle#getEngine()
+     * @return the engine
      */
     @Override
     public Engine getEngine() {
         return this.engine;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Gets the vehicle color.
      *
-     * @see com.shirrine.patterns.foobarmv.Vehicle#getColor()
+     * @return the color
      */
     @Override
     public Vehicle.Color getColor() {
         return this.color;
     }
 
-    /*
-     * (non-Javadoc)
+    /**
+     * Paints the vehicle the specified color.
      *
-     * @see com.shirrine.patterns.foobarmv.Vehicle#paint(com.shirrine.patterns.
-     * foobarmv.Vehicle.Color)
+     * @param color
+     *            the color to paint
      */
     @Override
     public void paint(final Vehicle.Color color) {
@@ -119,6 +119,40 @@ public abstract class AbstractVehicle implements Vehicle {
      */
     @Override
     public int hashCode() {
+
         return this.toString().hashCode();
+
+    }
+
+    /**
+     * Cleans the interior of a vehicle.
+     */
+    @Override
+    public void cleanInterior() {
+        System.out.println("Cleaning interior");
+    }
+
+    /**
+     * Cleans the exterior of a vehicle.
+     */
+    @Override
+    public void cleanExteriorBody() {
+        System.out.println("Cleaning exterior");
+    }
+
+    /**
+     * Polishes the vehicle windows.
+     */
+    @Override
+    public void polishWindows() {
+        System.out.println("Polishing windows");
+    }
+
+    /**
+     * Takes vehicle for a test drive.
+     */
+    @Override
+    public void takeForTestDrive() {
+        System.out.println("Taking for test drive");
     }
 }

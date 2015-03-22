@@ -101,4 +101,24 @@ public interface Vehicle extends Cloneable {
      * @return the clone
      */
     Object clone();
+
+    /**
+     * Cleans the interior of a vehicle.
+     */
+    void cleanInterior();
+
+    /**
+     * Cleans the exterior of a vehicle.
+     */
+    void cleanExteriorBody();
+
+    /**
+     * Polishes the vehicle windows.
+     */
+    void polishWindows();
+
+    /**
+     * Takes vehicle for a test drive.
+     */
+    void takeForTestDrive();
 }
