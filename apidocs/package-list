@@ -9,6 +9,7 @@ com.shirrine.patterns.foobarmv.chainofresponsibility
 com.shirrine.patterns.foobarmv.command
 com.shirrine.patterns.foobarmv.composite
 com.shirrine.patterns.foobarmv.decorator
+com.shirrine.patterns.foobarmv.facade
 com.shirrine.patterns.foobarmv.factory
 com.shirrine.patterns.foobarmv.flyweight
 com.shirrine.patterns.foobarmv.prototype
