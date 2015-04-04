@@ -40,7 +40,7 @@
   <!-- Bug Reporting -->
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/${user.name}/java-design-patterns</url>
+    <url>https://github.com/${user.name}/${project.artifactId}</url>
   </issueManagement>
   
   <!-- Dependencies -->
